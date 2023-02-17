@@ -47,6 +47,7 @@
 body {
     background-color: #E8DAB2;
     font-family: "Raleway", sans-serif;
+    padding-bottom: 50px;
 }
 
 header {
@@ -58,6 +59,7 @@ header {
 
 .container {
     margin-left: 20px;
+    
 }
 
 .container h2 {
@@ -87,6 +89,7 @@ main {
 article {
     margin: 34px 24px 10px 24px;
     font-size: 16px;
+    padding-bottom: 70px;
 }
 
 article h2 {
@@ -100,14 +103,17 @@ article h2 {
 }
 
 footer {
+    margin: 0;
     height: 50px;
-    width: 100vw;
+    width: 100%;
     background-color: #090909;
     color: #fff;
     font-size: 20px;
     position: fixed;
-    bottom: 30px;
+    right: 0;
+    bottom: 0;
     text-align: right;
+    box-sizing: border-box;
 
 }
 
